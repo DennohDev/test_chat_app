@@ -45,5 +45,5 @@ app.*.map.json
 /android/app/release
 
 #service Account key
-/notification-server/fcm-practice-b4d7c-firebase-adminsdk-fbsvc-321c93a729.json
+fcm-practice-b4d7c-firebase-adminsdk-fbsvc-321c93a729.json
 /notification-server/node_modules

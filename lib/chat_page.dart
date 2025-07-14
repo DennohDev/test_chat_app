@@ -32,7 +32,7 @@ class _ChatPageState extends State<ChatPage> {
     String body,
   ) async {
     final url =
-        'https://your-notification-server-url.onrender.com/send-notification'; // TODO: Replace with your deployed URL
+        'https://notification-service-hmzb.onrender.com/send-notification'; // TODO: Replace with your deployed URL
     try {
       await http.post(
         Uri.parse(url),
