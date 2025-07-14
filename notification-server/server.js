@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Initialize Firebase Admin SDK
-const serviceAccount = require(path.join(__dirname, 'serviceAccountKey.json'));
+const serviceAccount = require('../fcm-practice-b4d7c-firebase-adminsdk-fbsvc-321c93a729.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
