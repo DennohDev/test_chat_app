@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "flutterapplication3"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "flutterapplication3-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
